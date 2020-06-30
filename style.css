@@ -1,0 +1,69 @@
+a{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+body{
+    background-color: darkblue;
+}
+header {
+    background-color:blue;
+    width: 100%;
+    height: 120px;
+}
+.brandlogo{ 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px; 
+   
+}
+nav.main-nav ul {
+    list-style-type: none;
+    text-align: right;
+    
+}
+nav.main-nav ul li {
+    display: inline-block;
+    padding: 15px;
+    
+
+}
+nav.main-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    padding: 16px 16px;
+}
+nav.main-nav ul li a.active{
+    color:darkblue;
+}
+nav.main-nav ul li a.hover{
+    color:darkred
+}
+.firstSection{
+    background-color: white;
+    position: absolute;
+    margin: 150px;
+    height: 700px;
+    width: 1072px;
+    border-radius: 20px;
+}
+.firstSectionleft{
+padding: 20px 20px ;
+}
+
+#firstSectionRight{
+    padding-right: 20px;
+    text-align: right;
+    
+}
+
+    
+
+
+
